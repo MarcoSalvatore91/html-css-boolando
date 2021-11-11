@@ -7,4 +7,18 @@
 }
 
 /* Utilities */
+.card-body {
+    width: 1080px;
+    margin: 0 auto;
+}
 
+/* Body */
+
+.img-shop {
+    height: 400px;
+    width: 300px;
+    background-color: black;
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    background-size: contain;
+}
