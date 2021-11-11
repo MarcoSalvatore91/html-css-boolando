@@ -33,3 +33,19 @@ body {
     background-color: transparent;
     position: relative;
 }
+
+.info-clothes {
+    width: 300px;
+    height: 400px;
+    background-color: transparent;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+}
+
+/* Immagini */
+
+.img-clothes1 {
+    background-image: url(../img/1.webp);
+}
