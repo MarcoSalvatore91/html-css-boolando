@@ -6,16 +6,24 @@
     box-sizing: border-box;
 }
 
-/* Utilities */
+/* Utilies */
 
-.img-shop {
-    width: 300px;
-    height: 450px;
-    background-color: trasparent;
+.img-clothes {
+    width: 400px;
+    height: 600px;
+    background-color: blue;
     position: relative;
     display: inline-block;
     background-size: contain;
     background-size: cover;
+}
+
+/* body */
+
+.box{
+    width: 410px;
+    height: 700px;
+    display: inline-block;
 }
 
 body {
@@ -24,67 +32,4 @@ body {
     margin: 0 auto;
     background-color: transparent;
     position: relative;
-}
-
-/* Immagine */
-
-.card-body{
-    width: 310px;
-    height: 600px;
-    display: inline-block;
-}
-
-.img-shop1 {
-    background-image: url(../img/1.webp);
-}
-
-.heart {
-    height: 30px;
-    width: 30px;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 10px;
-    background-color: white;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-}
-        
-.heart:hover {
-    color: red;
-    cursor: pointer;
-}
-
-/* Info Aggiuntive */
-
-
-.discount {
-    height: 20px;
-    width: 35px;
-    background-color: black;
-    position: absolute;
-    bottom: 10 px;
-    left: 0;
-}
-
-.info {
-    height: 20px;
-    width: 60px;
-    background-color: black;
-    bottom: 0 px;
-    position: absolute;
-}
-
-.info-clothing {
-    font-weight: bolder;
-}
-
-.price {
-    color: red;
-    font-weight: bold;
-}
-
-.sales {
-    text-decoration: line-through;
 }
