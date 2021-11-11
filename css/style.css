@@ -30,7 +30,7 @@ body {
 .heart {
     height: 30px;
     width: 30px;
-    display: inline-block;
+    display: block;
     position: absolute;
     right: 0;
     top: 10px;
@@ -52,16 +52,16 @@ body {
     height: 20px;
     width: 35px;
     background-color: black;
-    bottom: 100 px;
-    left: 0;
     position: absolute;
+    bottom: 10 px;
+    left: 0;
 }
 
 .info {
     height: 20px;
     width: 60px;
     background-color: black;
-    bottom: 10 px;
+    bottom: 0 px;
     position: absolute;
 }
 
