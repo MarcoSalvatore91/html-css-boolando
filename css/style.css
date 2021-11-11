@@ -7,7 +7,7 @@
 }
 
 /* Utilities */
-.card-body {
+body {
     width: 1080px;
     margin: 0 auto;
 }
@@ -25,7 +25,6 @@
 }
 
 .img-shop::before {
-    border: 1px solid;
     height: 30px;
     width: 30px;
     display: inline-block;
@@ -37,4 +36,23 @@
     font-size: 20px;
     line-height: 30px;
     text-align: center;
+}
+
+.img-shop > .discount {
+    height: 20px;
+    width: 35px;
+    background-color: black;
+    display: inline-block;
+    bottom: 10 px;
+    left: 0;
+    position: absolute;
+}
+
+.img-shop > .info {
+    height: 20px;
+    width: 60px;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    bottom: 10 px;
 }
