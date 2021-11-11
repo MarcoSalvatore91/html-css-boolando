@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
 }
 
-/* Body */
+/* Immagine */
 
 .img-shop {
     height: 400px;
@@ -24,7 +24,10 @@ body {
     position: relative;
 }
 
-.img-shop::before {
+/* .img-shop:hover {
+    background-image: url(../img/1b.webp); */
+
+.heart {
     height: 30px;
     width: 30px;
     display: inline-block;
@@ -32,27 +35,45 @@ body {
     right: 0;
     top: 10px;
     background-color: white;
-    content: "\2665";
     font-size: 20px;
     line-height: 30px;
     text-align: center;
 }
+        
+.heart:hover {
+    color: red;
+    cursor: pointer;
+}
 
-.img-shop > .discount {
+/* Info Aggiuntive */
+
+
+.discount {
     height: 20px;
     width: 35px;
     background-color: black;
-    display: inline-block;
-    bottom: 10 px;
+    bottom: 100 px;
     left: 0;
     position: absolute;
 }
 
-.img-shop > .info {
+.info {
     height: 20px;
     width: 60px;
     background-color: black;
-    display: inline-block;
-    position: absolute;
     bottom: 10 px;
+    position: absolute;
+}
+
+.info-clothing {
+    font-weight: bolder;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+.sales {
+    text-decoration: line-through;
 }
