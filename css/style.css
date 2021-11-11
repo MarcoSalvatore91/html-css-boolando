@@ -21,4 +21,20 @@
     background-image: url(../img/1.webp);
     background-size: cover;
     background-size: contain;
+    position: relative;
+}
+
+.img-shop::before {
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: white;
+    content: "\2665";
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
